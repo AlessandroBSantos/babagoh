@@ -24,7 +24,6 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
 
 <nav class="navbar navbar-expand-lg navbar-dark">
 
-```
 <div class="container">
 
     <a class="navbar-brand" href="#">
@@ -65,7 +64,6 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     </div>
 
 </div>
-```
 
 </nav>
 
@@ -85,7 +83,6 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
 
 <section id="sobre" class="sobre">
 
-```
 <div class="container">
 
     <div class="section-title">
@@ -119,7 +116,6 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     </div>
 
 </div>
-```
 
 </section>
 
@@ -127,7 +123,6 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
 
 <section id="servicos" class="servicos">
 
-```
 <div class="container">
 
     <div class="section-title text-center">
@@ -209,7 +204,6 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     </div>
 
 </div>
-```
 
 </section>
 
@@ -217,7 +211,6 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
 
 <section id="diferenciais" class="diferenciais">
 
-```
 <div class="container">
 
     <div class="section-title text-center">
@@ -259,7 +252,6 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     </div>
 
 </div>
-```
 
 </section>
 
@@ -267,7 +259,6 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
 
 <section id="contato" class="contato">
 
-```
 <div class="container text-center">
 
     <h2>Entre em Contato</h2>
@@ -277,13 +268,12 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     <p><i class="fas fa-envelope"></i> contato@babagoh.com.br</p>
 
 </div>
-```
 
 </section>
 
 <footer class="footer">
 
-```
+
 <div class="container text-center">
 
     <h4>Babagoh</h4>
@@ -298,7 +288,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     </small>
 
 </div>
-```
+
 
 </footer>
 
@@ -306,9 +296,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
 class="whatsapp-float"
 target="_blank">
 
-```
 <i class="fab fa-whatsapp"></i>
-```
 
 </a>
 
