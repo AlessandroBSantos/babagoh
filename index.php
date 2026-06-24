@@ -86,17 +86,19 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
 
     <div class="container">
 
-        <h2>Sobre a Babagoh</h2>
+<h2>Sobre a Babagoh</h2>
 
-        <p>
-            A Babagoh nasceu para conectar famílias a babás
-            qualificadas, verificadas e confiáveis.
-        </p>
+<p>
+    A Babagoh é uma plataforma especializada na conexão entre famílias e profissionais de cuidados infantis, oferecendo uma experiência segura, prática e confiável para quem busca o melhor atendimento para seus filhos.
+</p>
 
-        <p>
-            Segurança, confiança e praticidade para quem busca
-            os melhores cuidados para seus filhos.
-        </p>
+<p>
+    Nosso compromisso é facilitar a contratação de babás qualificadas e verificadas, proporcionando tranquilidade aos pais e responsáveis por meio de um processo transparente, criterioso e eficiente.
+</p>
+
+<p>
+    Trabalhamos para criar relações de confiança, garantindo que cada família encontre a profissional ideal para atender suas necessidades com dedicação, responsabilidade e carinho.
+</p>
 
     </div>
 
@@ -110,6 +112,10 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
 
         <h2>Nossos Serviços</h2>
 
+<p class="text-muted mb-5">
+    Soluções completas para o cuidado infantil, com profissionais selecionadas e preparadas para atender diferentes necessidades familiares.
+</p>
+
         <div class="row">
 
             <div class="col-md-4">
@@ -118,29 +124,11 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
 
                     <div class="card-body">
 
-                        <h4>Babás Verificadas</h4>
+<h4>Babás Verificadas</h4>
 
-                        <p>
-                            Profissionais com cadastro validado.
-                        </p>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="col-md-4">
-
-                <div class="card h-100 shadow">
-
-                    <div class="card-body">
-
-                        <h4>Babá Diurna</h4>
-
-                        <p>
-                            Atendimento durante o dia.
-                        </p>
+<p>
+    Profissionais com documentação validada, referências verificadas e perfil analisado para oferecer mais segurança e confiança às famílias.
+</p>
 
                     </div>
 
@@ -154,16 +142,76 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
 
                     <div class="card-body">
 
-                        <h4>Babá Noturna</h4>
+<h4>Babá Diurna</h4>
 
-                        <p>
-                            Atendimento para períodos noturnos.
-                        </p>
+<p>
+    Atendimento durante o período diurno, auxiliando nos cuidados, alimentação, recreação e bem-estar das crianças.
+</p>
 
                     </div>
 
                 </div>
 
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="card h-100 shadow">
+
+                    <div class="card-body">
+
+<h4>Babá Noturna</h4>
+
+<p>
+    Serviço especializado para cuidados noturnos, proporcionando tranquilidade aos pais e atenção contínua às crianças.
+</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="py-5 bg-light">
+
+    <div class="container">
+
+        <div class="text-center mb-5">
+
+            <h2>Por que escolher a Babagoh?</h2>
+
+            <p class="text-muted">
+                Segurança, qualidade e praticidade em cada contratação.
+            </p>
+
+        </div>
+
+        <div class="row text-center">
+
+            <div class="col-md-3">
+                <h4>✔ Profissionais Verificadas</h4>
+                <p>Processo de validação e análise de perfil.</p>
+            </div>
+
+            <div class="col-md-3">
+                <h4>✔ Segurança</h4>
+                <p>Mais tranquilidade para toda a família.</p>
+            </div>
+
+            <div class="col-md-3">
+                <h4>✔ Agilidade</h4>
+                <p>Encontre profissionais de forma rápida e simples.</p>
+            </div>
+
+            <div class="col-md-3">
+                <h4>✔ Confiança</h4>
+                <p>Conectamos famílias e profissionais com responsabilidade.</p>
             </div>
 
         </div>
