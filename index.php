@@ -152,13 +152,6 @@ footer{
         <div class="container">
             <div class="hero-content">
 
-                <h1>Encontre a Babá Ideal para sua Família</h1>
-
-                <p>
-                    Conectamos famílias a profissionais qualificadas,
-                    seguras e verificadas.
-                </p>
-
                 <a href="https://wa.me/5519992281863"
                    target="_blank"
                    class="btn btn-success btn-lg">
