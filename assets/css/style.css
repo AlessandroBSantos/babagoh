@@ -1,92 +1,326 @@
+:root{
+--primary:#2563EB;
+--primary-dark:#1D4ED8;
+--secondary:#06B6D4;
+--success:#25D366;
+
+```
+--dark:#0F172A;
+--dark-light:#1E293B;
+
+--gray:#64748B;
+--light:#F8FAFC;
+--white:#FFFFFF;
+```
+
+}
+
+html{
+scroll-behavior:smooth;
+}
+
 body{
-    margin:0;
-    padding:0;
-    font-family:Arial, sans-serif;
+margin:0;
+padding:0;
+font-family:'Segoe UI', Arial, sans-serif;
+background:var(--light);
+color:var(--dark);
 }
 
 /* MENU */
 
 .navbar{
-    background:#1f2430;
+background:var(--dark) !important;
+padding:15px 0;
+box-shadow:0 2px 15px rgba(0,0,0,.1);
 }
 
 .navbar-brand{
-    font-size:2rem;
-    font-weight:bold;
+font-size:2rem;
+font-weight:700;
+color:#fff !important;
+}
+
+.nav-link{
+color:#CBD5E1 !important;
+margin-left:15px;
+transition:.3s;
+}
+
+.nav-link:hover{
+color:#fff !important;
 }
 
 /* BANNERS */
 
 .banner-desktop img{
-    width:100%;
-    display:block;
+width:100%;
+display:block;
 }
 
 .banner-mobile{
-    display:none;
+display:none;
 }
 
 .banner-mobile img{
-    width:100%;
-    display:block;
+width:100%;
+display:block;
 }
 
-/* CONTEÚDO */
+/* SOBRE */
 
-.sobre,
-.servicos,
+.sobre{
+padding:100px 0;
+background:#fff;
+}
+
+.sobre .container{
+background:#fff;
+padding:50px;
+border-radius:20px;
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.sobre h2{
+font-size:2.5rem;
+font-weight:700;
+margin-bottom:25px;
+}
+
+.sobre p{
+color:#475569;
+font-size:18px;
+line-height:1.8;
+}
+
+/* SERVIÇOS */
+
+.servicos{
+padding:100px 0;
+background:#EFF6FF;
+}
+
+.servicos h2{
+font-size:2.5rem;
+font-weight:700;
+margin-bottom:15px;
+}
+
+/* CARDS */
+
+.card{
+border:none;
+border-radius:20px;
+overflow:hidden;
+transition:.3s;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0 15px 35px rgba(37,99,235,.18);
+}
+
+.card-body{
+padding:35px;
+}
+
+.card h4{
+color:var(--primary);
+font-weight:700;
+margin-bottom:15px;
+}
+
+.card p{
+color:#64748B;
+}
+
+/* DIFERENCIAIS */
+
+.bg-light{
+background:#fff !important;
+}
+
+.bg-light h2{
+font-weight:700;
+margin-bottom:10px;
+}
+
+.bg-light .col-md-3{
+padding:25px;
+}
+
+.bg-light h4{
+color:var(--primary);
+font-size:1.3rem;
+font-weight:700;
+}
+
+/* CONTATO */
+
 .contato{
-    padding:80px 0;
+padding:100px 0;
+background:linear-gradient(
+135deg,
+#2563EB,
+#06B6D4
+);
+
+```
+color:white;
+```
+
+}
+
+.contato h2{
+font-size:2.5rem;
+font-weight:700;
+margin-bottom:25px;
+}
+
+.contato p{
+font-size:20px;
+margin-bottom:10px;
+}
+
+/* RODAPÉ */
+
+.footer{
+background:#0F172A;
+color:white;
+padding:60px 0;
+}
+
+.footer h4{
+font-weight:700;
+}
+
+.footer p{
+color:#CBD5E1;
 }
 
 /* WHATSAPP */
 
 .whatsapp-float{
-    position:fixed;
+position:fixed;
 
-    width:65px;
-    height:65px;
+```
+width:70px;
+height:70px;
 
-    bottom:90px;
-    right:15px;
+right:20px;
+bottom:90px;
 
-    background:#25D366;
+background:#25D366;
 
-    border-radius:50%;
+border-radius:50%;
 
-    display:flex;
-    align-items:center;
-    justify-content:center;
+display:flex;
+align-items:center;
+justify-content:center;
 
-    color:#fff;
+color:#fff;
 
-    font-size:35px;
+font-size:38px;
 
-    text-decoration:none;
+text-decoration:none;
 
-    box-shadow:0 5px 20px rgba(0,0,0,.3);
+box-shadow:
+0 10px 30px rgba(37,211,102,.45);
 
-    z-index:9999;
+z-index:9999;
+
+transition:.3s;
+```
+
 }
 
 .whatsapp-float:hover{
-    color:#fff;
+transform:scale(1.1);
+color:#fff;
 }
 
-/* MOBILE */
+.whatsapp-float::before{
+content:'';
+
+```
+position:absolute;
+
+width:100%;
+height:100%;
+
+background:#25D366;
+
+border-radius:50%;
+
+z-index:-1;
+
+animation:pulse 2s infinite;
+```
+
+}
+
+@keyframes pulse{
+
+```
+0%{
+    transform:scale(1);
+    opacity:.7;
+}
+
+70%{
+    transform:scale(1.5);
+    opacity:0;
+}
+
+100%{
+    transform:scale(1.5);
+    opacity:0;
+}
+```
+
+}
+
+/* RESPONSIVO */
 
 @media(max-width:768px){
 
-    .banner-desktop{
-        display:none;
-    }
+```
+.banner-desktop{
+    display:none;
+}
 
-    .banner-mobile{
-        display:block;
-    }
+.banner-mobile{
+    display:block;
+}
 
-    .navbar-brand{
-        font-size:1.8rem;
-    }
+.navbar-brand{
+    font-size:1.8rem;
+}
+
+.sobre{
+    padding:60px 0;
+}
+
+.sobre .container{
+    padding:30px;
+}
+
+.servicos{
+    padding:60px 0;
+}
+
+.card{
+    margin-bottom:20px;
+}
+
+.whatsapp-float{
+    width:60px;
+    height:60px;
+    font-size:32px;
+    bottom:90px;
+    right:15px;
+}
+```
 
 }

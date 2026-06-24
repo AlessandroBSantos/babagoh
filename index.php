@@ -249,4 +249,25 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
+<footer class="footer">
+
+
+<div class="container text-center">
+
+    <h4>Babagoh</h4>
+
+    <p>
+        Conectando famílias e profissionais de cuidados infantis
+        com segurança, confiança e carinho.
+    </p>
+
+    <small>
+        © 2026 Babagoh - Todos os direitos reservados.
+    </small>
+
+</div>
+
+
+</footer>
+
 </html>
