@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="pt-BR">
 
 <head>
@@ -6,7 +7,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Babagoh</title>
+<title>Babagoh - Encontre a Babá Ideal</title>
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -23,84 +24,102 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
 
 <nav class="navbar navbar-expand-lg navbar-dark">
 
-    <div class="container">
+```
+<div class="container">
 
-        <a class="navbar-brand" href="#">
-            Babagoh
-        </a>
+    <a class="navbar-brand" href="#">
+        <i class="fas fa-heart text-info"></i> Babagoh
+    </a>
 
-        <button class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#menu">
+    <button class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#menu">
 
-            <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
 
-        </button>
+    </button>
 
-        <div class="collapse navbar-collapse" id="menu">
+    <div class="collapse navbar-collapse" id="menu">
 
-            <ul class="navbar-nav ms-auto">
+        <ul class="navbar-nav ms-auto">
 
-                <li class="nav-item">
-                    <a class="nav-link" href="#sobre">Sobre</a>
-                </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#sobre">Sobre</a>
+            </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="#servicos">Serviços</a>
-                </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#servicos">Serviços</a>
+            </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="#contato">Contato</a>
-                </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#diferenciais">Diferenciais</a>
+            </li>
 
-            </ul>
+            <li class="nav-item">
+                <a class="nav-link" href="#contato">Contato</a>
+            </li>
 
-        </div>
+        </ul>
 
     </div>
+
+</div>
+```
 
 </nav>
 
 <!-- BANNER DESKTOP -->
 
 <section class="banner-desktop">
-
-    <img src="assets/img/banner-desktop.png"
-         alt="Babagoh">
-
+    <img src="assets/img/banner-desktop.png" alt="Babagoh">
 </section>
 
 <!-- BANNER MOBILE -->
 
 <section class="banner-mobile">
-
-    <img src="assets/img/banner-mobile.png"
-         alt="Babagoh">
-
+    <img src="assets/img/banner-mobile.png" alt="Babagoh">
 </section>
 
 <!-- SOBRE -->
 
 <section id="sobre" class="sobre">
 
-    <div class="container">
+```
+<div class="container">
 
-<h2>Sobre a Babagoh</h2>
+    <div class="section-title">
 
-<p>
-    A Babagoh é uma plataforma especializada na conexão entre famílias e profissionais de cuidados infantis, oferecendo uma experiência segura, prática e confiável para quem busca o melhor atendimento para seus filhos.
-</p>
+        <span class="badge-custom">
+            ✨ Quem Somos
+        </span>
 
-<p>
-    Nosso compromisso é facilitar a contratação de babás qualificadas e verificadas, proporcionando tranquilidade aos pais e responsáveis por meio de um processo transparente, criterioso e eficiente.
-</p>
+        <h2>Sobre a Babagoh</h2>
 
-<p>
-    Trabalhamos para criar relações de confiança, garantindo que cada família encontre a profissional ideal para atender suas necessidades com dedicação, responsabilidade e carinho.
-</p>
+        <p class="subtitle">
+            Conectando famílias e profissionais de cuidados infantis com segurança, confiança e tranquilidade.
+        </p>
 
     </div>
+
+    <div class="sobre-card">
+
+        <p>
+            A <strong>Babagoh</strong> é uma plataforma especializada na conexão entre famílias e profissionais de cuidados infantis.
+        </p>
+
+        <p>
+            Nosso compromisso é facilitar a contratação de babás qualificadas e verificadas, proporcionando mais segurança e tranquilidade para pais e responsáveis.
+        </p>
+
+        <p>
+            Trabalhamos para criar relações de confiança, garantindo que cada família encontre a profissional ideal para atender suas necessidades.
+        </p>
+
+    </div>
+
+</div>
+```
 
 </section>
 
@@ -108,65 +127,78 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
 
 <section id="servicos" class="servicos">
 
-    <div class="container">
+```
+<div class="container">
 
-        <h2>Nossos Serviços</h2>
+    <div class="section-title text-center">
 
-<p class="text-muted mb-5">
-    Soluções completas para o cuidado infantil, com profissionais selecionadas e preparadas para atender diferentes necessidades familiares.
-</p>
+        <span class="badge-custom">
+            ⭐ Serviços
+        </span>
 
-        <div class="row">
+        <h2>Como Podemos Ajudar Sua Família</h2>
 
-            <div class="col-md-4">
+        <p class="subtitle mx-auto">
+            Soluções completas para o cuidado infantil com profissionais preparadas e selecionadas.
+        </p>
 
-                <div class="card h-100 shadow">
+    </div>
 
-                    <div class="card-body">
+    <div class="row g-4">
 
-<h4>Babás Verificadas</h4>
+        <div class="col-md-4">
 
-<p>
-    Profissionais com documentação validada, referências verificadas e perfil analisado para oferecer mais segurança e confiança às famílias.
-</p>
+            <div class="card h-100">
 
-                    </div>
+                <div class="card-body text-center">
 
-                </div>
+                    <i class="fas fa-shield-heart servico-icon"></i>
 
-            </div>
+                    <h4>Babás Verificadas</h4>
 
-            <div class="col-md-4">
-
-                <div class="card h-100 shadow">
-
-                    <div class="card-body">
-
-<h4>Babá Diurna</h4>
-
-<p>
-    Atendimento durante o período diurno, auxiliando nos cuidados, alimentação, recreação e bem-estar das crianças.
-</p>
-
-                    </div>
+                    <p>
+                        Profissionais com documentação validada e referências verificadas.
+                    </p>
 
                 </div>
 
             </div>
 
-            <div class="col-md-4">
+        </div>
 
-                <div class="card h-100 shadow">
+        <div class="col-md-4">
 
-                    <div class="card-body">
+            <div class="card h-100">
 
-<h4>Babá Noturna</h4>
+                <div class="card-body text-center">
 
-<p>
-    Serviço especializado para cuidados noturnos, proporcionando tranquilidade aos pais e atenção contínua às crianças.
-</p>
+                    <i class="fas fa-sun servico-icon"></i>
 
-                    </div>
+                    <h4>Babá Diurna</h4>
+
+                    <p>
+                        Atendimento durante o período diurno para auxiliar sua família.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-md-4">
+
+            <div class="card h-100">
+
+                <div class="card-body text-center">
+
+                    <i class="fas fa-moon servico-icon"></i>
+
+                    <h4>Babá Noturna</h4>
+
+                    <p>
+                        Cuidados especializados durante o período noturno.
+                    </p>
 
                 </div>
 
@@ -175,48 +207,59 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         </div>
 
     </div>
+
+</div>
+```
 
 </section>
 
-<section class="py-5 bg-light">
+<!-- DIFERENCIAIS -->
 
-    <div class="container">
+<section id="diferenciais" class="diferenciais">
 
-        <div class="text-center mb-5">
+```
+<div class="container">
 
-            <h2>Por que escolher a Babagoh?</h2>
+    <div class="section-title text-center">
 
-            <p class="text-muted">
-                Segurança, qualidade e praticidade em cada contratação.
-            </p>
+        <span class="badge-custom">
+            🚀 Diferenciais
+        </span>
 
+        <h2>Por que escolher a Babagoh?</h2>
+
+    </div>
+
+    <div class="row text-center g-4">
+
+        <div class="col-md-3">
+            <i class="fas fa-user-check diferencial-icon"></i>
+            <h4>Profissionais Verificadas</h4>
+            <p>Validação completa de perfil e documentação.</p>
         </div>
 
-        <div class="row text-center">
+        <div class="col-md-3">
+            <i class="fas fa-lock diferencial-icon"></i>
+            <h4>Segurança</h4>
+            <p>Mais tranquilidade para toda a família.</p>
+        </div>
 
-            <div class="col-md-3">
-                <h4>✔ Profissionais Verificadas</h4>
-                <p>Processo de validação e análise de perfil.</p>
-            </div>
+        <div class="col-md-3">
+            <i class="fas fa-bolt diferencial-icon"></i>
+            <h4>Agilidade</h4>
+            <p>Encontre rapidamente a profissional ideal.</p>
+        </div>
 
-            <div class="col-md-3">
-                <h4>✔ Segurança</h4>
-                <p>Mais tranquilidade para toda a família.</p>
-            </div>
-
-            <div class="col-md-3">
-                <h4>✔ Agilidade</h4>
-                <p>Encontre profissionais de forma rápida e simples.</p>
-            </div>
-
-            <div class="col-md-3">
-                <h4>✔ Confiança</h4>
-                <p>Conectamos famílias e profissionais com responsabilidade.</p>
-            </div>
-
+        <div class="col-md-3">
+            <i class="fas fa-heart diferencial-icon"></i>
+            <h4>Confiança</h4>
+            <p>Relacionamentos construídos com responsabilidade.</p>
         </div>
 
     </div>
+
+</div>
+```
 
 </section>
 
@@ -224,34 +267,23 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
 
 <section id="contato" class="contato">
 
-    <div class="container text-center">
+```
+<div class="container text-center">
 
-        <h2>Entre em Contato</h2>
+    <h2>Entre em Contato</h2>
 
-        <p>(19) 99228-1863</p>
+    <p><i class="fas fa-phone"></i> (19) 99228-1863</p>
 
-        <p>contato@babagoh.com.br</p>
+    <p><i class="fas fa-envelope"></i> contato@babagoh.com.br</p>
 
-    </div>
+</div>
+```
 
 </section>
 
-<!-- WHATSAPP -->
-
-<a href="https://wa.me/5519992281863"
-   class="whatsapp-float"
-   target="_blank">
-
-    <i class="fab fa-whatsapp"></i>
-
-</a>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
-</body>
 <footer class="footer">
 
-
+```
 <div class="container text-center">
 
     <h4>Babagoh</h4>
@@ -266,8 +298,21 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     </small>
 
 </div>
-
+```
 
 </footer>
 
+<a href="https://wa.me/5519992281863"
+class="whatsapp-float"
+target="_blank">
+
+```
+<i class="fab fa-whatsapp"></i>
+```
+
+</a>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
 </html>
