@@ -47,6 +47,64 @@ footer{
     padding:30px 0;
 }
 
+.hero-banner{
+    background:url('assets/img/banner-babagoh.png');
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+    min-height:700px;
+
+    display:flex;
+    align-items:center;
+}
+
+.overlay{
+    width:100%;
+    min-height:700px;
+
+    background:rgba(0,0,0,0.15);
+
+    display:flex;
+    align-items:center;
+}
+
+.hero-content{
+    max-width:600px;
+    color:#fff;
+}
+
+.hero-content h1{
+    font-size:4rem;
+    font-weight:700;
+    margin-bottom:20px;
+}
+
+.hero-content p{
+    font-size:1.3rem;
+    margin-bottom:30px;
+}
+
+@media(max-width:768px){
+
+    .hero-banner{
+        min-height:500px;
+    }
+
+    .overlay{
+        min-height:500px;
+    }
+
+    .hero-content h1{
+        font-size:2.2rem;
+    }
+
+    .hero-content p{
+        font-size:1rem;
+    }
+
+}
+
 </style>
 
 </head>
@@ -89,28 +147,27 @@ footer{
 
 <!-- HERO -->
 
-<section class="hero text-center">
+<section class="hero-banner">
+    <div class="overlay">
+        <div class="container">
+            <div class="hero-content">
 
-    <div class="container">
+                <h1>Encontre a Babá Ideal para sua Família</h1>
 
-        <h1 class="display-4 fw-bold">
-            Encontre a Babá Ideal para sua Família
-        </h1>
+                <p>
+                    Conectamos famílias a profissionais qualificadas,
+                    seguras e verificadas.
+                </p>
 
-        <p class="lead mt-4">
-            Conectamos famílias a profissionais qualificadas,
-            seguras e verificadas.
-        </p>
+                <a href="https://wa.me/5519992281863"
+                   target="_blank"
+                   class="btn btn-success btn-lg">
+                    Falar pelo WhatsApp
+                </a>
 
-        <a href="https://wa.me/5511999999999"
-           target="_blank"
-           class="btn btn-whatsapp btn-lg mt-3">
-
-           Falar pelo WhatsApp
-        </a>
-
+            </div>
+        </div>
     </div>
-
 </section>
 
 <!-- SOBRE -->
@@ -285,7 +342,7 @@ footer{
 
         <p>contato@babagoh.com.br</p>
 
-        <a href="https://wa.me/5519999999999"
+        <a href="https://wa.me/5519992281863"
            target="_blank"
            class="btn btn-success btn-lg">
 
