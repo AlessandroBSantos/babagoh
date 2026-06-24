@@ -1,0 +1,92 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial, sans-serif;
+}
+
+/* MENU */
+
+.navbar{
+    background:#1f2430;
+}
+
+.navbar-brand{
+    font-size:2rem;
+    font-weight:bold;
+}
+
+/* BANNERS */
+
+.banner-desktop img{
+    width:100%;
+    display:block;
+}
+
+.banner-mobile{
+    display:none;
+}
+
+.banner-mobile img{
+    width:100%;
+    display:block;
+}
+
+/* CONTEÚDO */
+
+.sobre,
+.servicos,
+.contato{
+    padding:80px 0;
+}
+
+/* WHATSAPP */
+
+.whatsapp-float{
+    position:fixed;
+
+    width:65px;
+    height:65px;
+
+    bottom:90px;
+    right:15px;
+
+    background:#25D366;
+
+    border-radius:50%;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    color:#fff;
+
+    font-size:35px;
+
+    text-decoration:none;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.3);
+
+    z-index:9999;
+}
+
+.whatsapp-float:hover{
+    color:#fff;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+    .banner-desktop{
+        display:none;
+    }
+
+    .banner-mobile{
+        display:block;
+    }
+
+    .navbar-brand{
+        font-size:1.8rem;
+    }
+
+}
