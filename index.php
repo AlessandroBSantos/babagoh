@@ -180,7 +180,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
 
         <h2>Entre em Contato</h2>
 
-        <p>(19) 99999-9999</p>
+        <p>(19) 99228-1863</p>
 
         <p>contato@babagoh.com.br</p>
 
@@ -190,7 +190,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
 
 <!-- WHATSAPP -->
 
-<a href="https://wa.me/5519999999999"
+<a href="https://wa.me/5519992281863"
    class="whatsapp-float"
    target="_blank">
 
